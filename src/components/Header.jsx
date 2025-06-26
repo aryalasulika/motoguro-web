@@ -11,7 +11,7 @@ const Header = () => {
     <header className="bg-gradient-to-r from-blue-900 to-blue-800 text-white py-4 fixed top-0 left-0 right-0 z-50 shadow-lg">
       <div className="max-w-6xl mx-auto px-8 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <img src="/logo-motoguro.jpeg" alt="Motoguro" className="w-10 h-10 rounded-full object-cover" />
+          <img src="/logo-motoguro.webp" alt="Motoguro" className="w-10 h-10 rounded-full object-cover" />
           <span className="text-xl font-bold text-yellow-400">MOTOGURO</span>
         </div>
         
