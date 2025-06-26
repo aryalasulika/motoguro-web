@@ -1,4 +1,5 @@
 import React from 'react';
+import logo from '../assets/logo.webp';
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <img src="/logo-motoguro.webp" alt="Motoguro" className="w-12 h-12 rounded-full object-cover" />
+              <img src={logo} alt="Motoguro" className="w-12 h-12 rounded-full object-cover" />
               <h3 className="text-xl font-bold text-yellow-400">MOTOGURO</h3>
             </div>
             <p className="text-gray-300 leading-relaxed max-w-xs">
