@@ -154,7 +154,7 @@ const Services = () => {
             </div>
             <div className="text-center">
               <h4 className="text-2xl font-bold text-yellow-400 mb-4">Dapatkan Motor Bersih Tanpa Repot!</h4>
-              <p className="text-lg mb-8 opacity-80 italic">* Gratis antar jemput untuk area Jakarta Selatan dalam radius 5km</p>
+              <p className="text-lg mb-8 opacity-80 italic">* Gratis antar jemput untuk area Bandung dan sekitarnya</p>
               <div className="space-y-4">
                 <a href="https://wa.me/6282345517855" className="btn-whatsapp w-full max-w-xs mx-auto block" target="_blank" rel="noopener noreferrer">
                   💬 Chat WhatsApp
