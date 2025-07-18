@@ -1,5 +1,7 @@
 import React from 'react';
 import logo from '../assets/logo.webp';
+import whatsappLogo from '../assets/whatsapp.png';
+import instagramLogo from '../assets/instagram.png';
 
 const Footer = () => {
   return (
@@ -41,23 +43,29 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold text-yellow-400 mb-4">Hubungi Kami</h4>
             <div className="space-y-3">
-              <div className="flex items-center gap-3 text-gray-300">
+              {/* <div className="flex items-center gap-3 text-gray-300">
                 <span className="text-lg">📞</span>
                 <span className="hover:text-yellow-400 transition-colors cursor-pointer">+62 812-3456-7890</span>
-              </div>
+              </div> */}
               <div className="flex items-center gap-3 text-gray-300">
                 <span className="text-lg">📱</span>
-                <span className="hover:text-yellow-400 transition-colors cursor-pointer">WhatsApp: +62 812-3456-7890</span>
+                <span className="hover:text-yellow-400 transition-colors cursor-pointer">+62 851-2935-6047</span>
               </div>
               <div className="flex items-center gap-3 text-gray-300">
                 <span className="text-lg">⏰</span>
-                <span>08:00 - 17:00 (Sen-Sab)</span>
+                <ul className="space-y-1">
+                  <li>09:00 - 17:00 (Sen-Jum)</li>
+                  <li>08:00 - 17:00 (Sab-Min)</li>
+                </ul>
               </div>
             </div>
             <div className="flex gap-3 mt-6">
-              <a href="#" className="w-10 h-10 bg-yellow-500 bg-opacity-20 border border-yellow-500 border-opacity-30 rounded-full flex items-center justify-center text-lg hover:bg-yellow-500 hover:transform hover:-translate-y-1 hover:shadow-lg transition-all duration-300">📘</a>
-              <a href="#" className="w-10 h-10 bg-yellow-500 bg-opacity-20 border border-yellow-500 border-opacity-30 rounded-full flex items-center justify-center text-lg hover:bg-yellow-500 hover:transform hover:-translate-y-1 hover:shadow-lg transition-all duration-300">📷</a>
-              <a href="https://wa.me/6281234567890" className="w-10 h-10 bg-yellow-500 bg-opacity-20 border border-yellow-500 border-opacity-30 rounded-full flex items-center justify-center text-lg hover:bg-yellow-500 hover:transform hover:-translate-y-1 hover:shadow-lg transition-all duration-300">💬</a>
+              <a href="https://wa.me/6285129356047?text=Halo%20admin,%20saya%20tertarik%20dengan%20layanan%20mobile%20service%20cuci%20motor." target="_blank" className="w-10 h-10 bg-yellow-500 bg-opacity-20 border border-yellow-500 border-opacity-30 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:transform hover:-translate-y-1 hover:shadow-lg transition-all duration-300">
+                <img src={whatsappLogo} alt="WhatsApp" className="w-6 h-6 object-contain" />
+              </a>
+              <a href="https://www.instagram.com/motoguro.wash/" target="_blank" className="w-10 h-10 bg-yellow-500 bg-opacity-20 border border-yellow-500 border-opacity-30 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:transform hover:-translate-y-1 hover:shadow-lg transition-all duration-300">
+                <img src={instagramLogo} alt="Instagram" className="w-6 h-6 object-contain" />
+              </a>
             </div>
           </div>
         </div>

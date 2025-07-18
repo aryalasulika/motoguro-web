@@ -26,7 +26,7 @@ const Header = () => {
         </nav>
 
         <div className="flex items-center gap-4">
-          <a href="https://wa.me/6282345517855" className="hidden md:flex items-center gap-2 bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-white py-3 px-6 rounded-full font-semibold transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/6285129356047?text=Halo%20admin,%20saya%20tertarik%20dengan%20layanan%20mobile%20service%20cuci%20motor." className="hidden md:flex items-center gap-2 bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-white py-3 px-6 rounded-full font-semibold transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg" target="_blank" rel="noopener noreferrer">
             💬 Hubungi Kami
           </a>
           <button 

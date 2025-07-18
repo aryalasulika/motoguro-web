@@ -31,7 +31,7 @@ return (
                         </div>
                     </div>
                     <div className="flex flex-wrap gap-4 pt-4">
-                        <a href="https://wa.me/6282345517855" className="btn-yellow inline-flex items-center gap-2 text-blue-900" target='_blank' rel="noopener noreferrer">
+                        <a href="https://wa.me/6285129356047?text=Halo%20admin,%20saya%20tertarik%20dengan%20layanan%20mobile%20service%20cuci%20motor." className="btn-yellow inline-flex items-center gap-2 text-blue-900" target='_blank' rel="noopener noreferrer">
                             📞 Pesan Sekarang
                         </a>
                         <a href="#layanan" className="btn-secondary inline-flex items-center gap-2 text-blue-800">
